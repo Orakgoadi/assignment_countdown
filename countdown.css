@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .tiles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .tile {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.2s;
+  }
+  
+  .tile:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  }
+  
+  .assignment-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  
+  .countdown {
+    font-size: 1.3em;
+    color: #2d7dd2;
+    margin-bottom: 5px;
+  }
+  
+  .due-date {
+    font-size: 0.95em;
+    color: #888;
+  }
+  
